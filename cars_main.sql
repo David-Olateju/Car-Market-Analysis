@@ -1,6 +1,7 @@
 SELECT *
 FROM Cars.dbo.car_scrape$;
 
+-- COUNTS OF ALL ROWS IN THE DATASET
 SELECT COUNT(*)
 FROM Cars.dbo.car_scrape$ 
 
@@ -94,16 +95,10 @@ GROUP BY year, title, location
 ORDER BY Counts DESC;
 
 
--- updating the location
+-- UPDATING THE LOCATIOON.
 UPDATE Cars.dbo.car_scrape$
 SET location = 'Ogun'
 	WHERE location = 'Arepo ogun state'
-
-
-SELECT location
-FROM Cars.dbo.car_scrape$
-WHERE location LIKE '%state%'
-
 
 
 

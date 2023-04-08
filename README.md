@@ -1,2 +1,6 @@
 # Car-Market-Analysis
-this project analysis the Car Distibution Market, majorly in Nigeria and Accra  
+This project analysis the Car Distibution Market, majorly in Nigeria and Accra.
+
+The dataset was gotten on Kaggle, which comprises of .. rows and .. columns.
+
+Microsoft SQL Server was used to query the data and visualizations were done via PowerBI. 

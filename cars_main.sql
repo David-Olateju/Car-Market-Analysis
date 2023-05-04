@@ -99,12 +99,3 @@ ORDER BY Counts DESC;
 UPDATE Cars.dbo.car_scrape$
 SET location = 'Ogun'
 	WHERE location = 'Arepo ogun state'
-
-
-
-
-
-
-
-
-
